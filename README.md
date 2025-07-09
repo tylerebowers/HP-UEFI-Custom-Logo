@@ -1,6 +1,6 @@
 ## Customize the UEFI boot logo of your HP laptop
 
-Personally I used this for my HP Zbook Ultra g1a. I really hated that for such an expensive laptop I have to see the stupid "Wolf security" and "Powered by ... experiences" logos, it's really quite embarrassing. Since I am on linux I could not use the [CMSL tools](https://developers.hp.com/hp-client-management/doc/set-hpfirmwarebootlogo) to change my boot logo so I took a risk on the efi tool.
+Personally I used this for my HP Zbook Ultra g1a. I really hated that for such an expensive laptop I have to see the stupid "Wolf security" and "Powered by ... experiences" logos, it's really quite embarrassing. Since I am on linux I could not use the [CMSL tools](https://developers.hp.com/hp-client-management/doc/set-hpfirmwarebootlogo) to change my boot logo, so I took a risk on the efi tool.
 
 ## Usage
 1. Copy the contents of the folder USB onto a FAT32 formatted usb drive (the drive should contain the efi folder).
@@ -12,8 +12,8 @@ Personally I used this for my HP Zbook Ultra g1a. I really hated that for such a
 
 ## Notes
 * The image must be a JPG, smaller than 32K, and have a resolution of less than 1024x768.
-* The x64 efi shell (shellx64.efi renamed to bootx64.efi) is from here: https://github.com/pbatard/UEFI-Shell/releases
-* The custom logo tool is from here: https://support.hp.com/lt-en/drivers/hp-z440-workstation/6978828
+* The x64 efi shell (shellx64.efi renamed to bootx64.efi) is from [here](https://github.com/pbatard/UEFI-Shell/releases).
+* The custom logo tool is from [here](https://support.hp.com/lt-en/drivers/hp-z440-workstation/6978828).
 * Credit to [Larry Ewing](https://en.wikipedia.org/wiki/Larry_Ewing) for the original [linux logo (edited)](https://brandlogos.net/linux-logo-svg-92851.html)
 
 ![image](steps.jpg)
