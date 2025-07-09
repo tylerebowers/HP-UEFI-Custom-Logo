@@ -1,4 +1,4 @@
-Customize the UEFI boot logo of your HP laptop
+## Customize the UEFI boot logo of your HP laptop
 
 Personally I used this for my HP Zbook Ultra g1a. I really hated that for such an expensive laptop I have to see the stupid "Wolf security" and "Powered by ... experiences" logos, it's really quite embarrassing. Since I am on linux I could not use the [CMSL tools](https://developers.hp.com/hp-client-management/doc/set-hpfirmwarebootlogo) to change my boot logo so I took a risk on the efi tool.
 
