@@ -5,10 +5,10 @@ Personally I used this for my HP Zbook Ultra g1a. I really hated that for such a
 ## Usage
 1. Copy the contents of the USB folder onto a FAT32 formatted usb drive (the drive should contain the efi folder).
 2. Reboot and boot from the usb drive.
-3. In the shell we need the usb drive file system, type "FS1:" into the terminal (it could also be "FS0:" etc).
-4. Next, go to the directory that contains the tool: "cd efi", "cd tools"
-5. Then we can flash the image "CustomLogoApp.efi logo.jpg" (replace with correct filename)
-6. Use "exit" and restart, the new logo is now shown.
+3. In the shell we need the usb drive file system, type `FS1:` into the terminal (it could also be "FS0:" etc).
+4. Next, go to the directory that contains the tool: `cd efi`, `cd tools`
+5. Then we can flash the image `CustomLogoApp.efi logo.jpg` (replace with correct filename)
+6. Use `exit` and restart, the new logo is now shown.
 
 ## Notes
 * The image must be a JPG, smaller than 32K, and have a resolution of less than 1024x768.
