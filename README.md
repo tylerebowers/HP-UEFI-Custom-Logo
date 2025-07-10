@@ -12,6 +12,7 @@ Personally I used this for my HP Zbook Ultra g1a. I really hated that for such a
 
 ## Notes
 * The image must be a JPG, smaller than 32K, and have a resolution of less than 1024x768.
+* Secure boot must be off.
 * The x64 efi shell (shellx64.efi renamed to bootx64.efi) is from [here](https://github.com/pbatard/UEFI-Shell/releases).
 * The custom logo tool is from [here](https://support.hp.com/lt-en/drivers/hp-z440-workstation/6978828).
 * Credit to [Larry Ewing](https://en.wikipedia.org/wiki/Larry_Ewing) for the original [linux logo (edited)](https://brandlogos.net/linux-logo-svg-92851.html)
